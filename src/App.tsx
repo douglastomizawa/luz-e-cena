@@ -1,5 +1,7 @@
+import Banner from "./components/banner";
+
 function App() {
-  return <h1>Hello World!</h1>;
+  return <Banner src="./public/assets/imagens/bannerDesktop.png" alt="Luz e Cena" />;
 }
 
 export default App;
